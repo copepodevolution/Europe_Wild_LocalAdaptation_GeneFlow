@@ -5,4 +5,4 @@ This repository contains analysis scripts and data associated with our manuscrip
 
 
 ## Usage
-Scripts are organized by snp_calling, 
+Scripts are organized by snp_calling, [**demography_analysis**](.demography_analysis), [**selection_analysis**](.selection_analysis), and [**SFS_analysis**](.SFS_analysis)
