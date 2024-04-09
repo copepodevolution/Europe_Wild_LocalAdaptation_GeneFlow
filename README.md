@@ -5,3 +5,4 @@ This repository contains analysis scripts and data associated with our manuscrip
 
 
 ## Usage
+Scripts are organized by snp_calling, 
