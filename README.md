@@ -39,10 +39,26 @@ Python version 3.8.2
 - [numpy v1.15.2](https://numpy.org/)
 
 ## R packages
+R version 4.1.2
+- [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
+- [gplots v.3.1.3](https://github.com/talgalili/gplots)
+- [OptM v.0.1.6](link)
 - [poolfstat v1.1.1, v2.1.1](https://cran.r-project.org/web/packages/poolfstat/poolfstat.pdf)
+- [stats v.4.1.2](link)
+- [vegan v.2.6-2](http://cran.r-project.org/package=vegan)
 
 ## Other software used in the manuscript
-
+- [BayPass v.2.2](link)
+- [BEDOPS v.2.4.39](link)
+- [BITE](link)
+- [BWA-MEM v.0.7.17](link)
+- [GATK v.3.8](link)
+- [Gowinda v.1.12](link)
+- [PHYLIP v.3.697](https://phylipweb.github.io/phylip/)
+- [Picard v.2.18.27](https://broadinstitute.github.io/picard/)
+- [PoPoolation v.1.2.2](link)
+- [TreeMix v.1.13](link)
+- [Trimmomatic v.0.39](http://www.usadellab.org/cms/?page=trimmomatic)
 
 ## Data
 SNPs and allele counts derived from the Pool-Seq data are available in the [**data**](data) directory, along with environmental data. Please see the README file within for information.
