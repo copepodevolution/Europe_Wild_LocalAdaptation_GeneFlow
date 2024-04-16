@@ -9,7 +9,7 @@ Scripts are organized by snp_calling, [**demography_analysis**](demography_analy
 
 Command-line options for python scripts can be found, e.g.,`baypass2freqs_cov.py -h`
 
-Script files for snp_calling can be found in the following GitHub repository: https://github.com/TheDBStern/Baltic_Lab_Wild/snp_calling
+Script files for snp_calling can be found in the following GitHub repository: https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling
 
 #### snp_calling -- SNP calling, SNP data processing
 - baypass2freqs_cov.py -- Converts a file from multipopulation BayPass format (refcount1 altcount1 etc.) to frequencies of the alt allele and a coverage matrix
@@ -42,22 +42,21 @@ Python version 3.8.2
 R version 4.1.2
 - [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
 - [gplots v.3.1.3](https://github.com/talgalili/gplots)
-- [OptM v.0.1.6](link)
+- [OptM v.0.1.6](https://cran.r-project.org/web/packages/OptM/OptM.pdf)
 - [poolfstat v1.1.1, v2.1.1](https://cran.r-project.org/web/packages/poolfstat/poolfstat.pdf)
-- [stats v.4.1.2](link)
 - [vegan v.2.6-2](http://cran.r-project.org/package=vegan)
 
 ## Other software used in the manuscript
-- [BayPass v.2.2](link)
-- [BEDOPS v.2.4.39](link)
-- [BITE](link)
-- [BWA-MEM v.0.7.17](link)
-- [GATK v.3.8](link)
-- [Gowinda v.1.12](link)
+- [BayPass v.2.2](https://forgemia.inra.fr/mathieu.gautier/baypass_public)
+- [BEDOPS v.2.4.39](https://bedops.readthedocs.io/en/latest/)
+- [BITE](https://github.com/marcomilanesi/BITE)
+- [BWA-MEM v.0.7.17](https://github.com/lh3/bwa)
+- [GATK v.3.8](https://gatk.broadinstitute.org/hc/en-us)
+- [Gowinda v.1.12](https://sourceforge.net/p/gowinda/wiki/Main/)
 - [PHYLIP v.3.697](https://phylipweb.github.io/phylip/)
 - [Picard v.2.18.27](https://broadinstitute.github.io/picard/)
-- [PoPoolation v.1.2.2](link)
-- [TreeMix v.1.13](link)
+- [PoPoolation v.1.2.2](https://sourceforge.net/p/popoolation/wiki/Main/)
+- [TreeMix v.1.13](https://speciationgenomics.github.io/Treemix/)
 - [Trimmomatic v.0.39](http://www.usadellab.org/cms/?page=trimmomatic)
 
 ## Data
