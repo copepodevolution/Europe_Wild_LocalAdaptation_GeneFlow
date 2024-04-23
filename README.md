@@ -20,7 +20,7 @@ Script files for snp_calling can be found in the following GitHub repository: ht
 - vcf2genobaypass.R -- R commands to generate the read count file from the VarScan VCF using *poolfstat*
 
 #### demography_analysis --
-
+- [run.MantelTests.R](demography_analysis/run.MantelTests.R) -- generates matrices to run Mantel tests, runs Mantel tests to compare geographic distance and admixture statistic (f4) and to compare geographic distance and genetic distance (FST)
 
 #### selection_analysis --
 
@@ -40,10 +40,12 @@ Python version 3.8.2
 
 ## R packages
 R version 4.1.2
+- [dplyr v.1.0.8](https://dplyr.tidyverse.org/)
 - [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
 - [gplots v.3.1.3](https://github.com/talgalili/gplots)
 - [OptM v.0.1.6](https://cran.r-project.org/web/packages/OptM/OptM.pdf)
-- [poolfstat v1.1.1, v2.1.1](https://cran.r-project.org/web/packages/poolfstat/poolfstat.pdf)
+- [poolfstat v.1.1.1, v2.1.1](https://cran.r-project.org/web/packages/poolfstat/poolfstat.pdf)
+- [tidyverse v.1.3.1](https://www.tidyverse.org/)
 - [vegan v.2.6-2](http://cran.r-project.org/package=vegan)
 
 ## Other software used in the manuscript
