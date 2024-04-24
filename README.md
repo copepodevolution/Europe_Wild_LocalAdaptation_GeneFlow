@@ -12,12 +12,12 @@ Command-line options for python scripts can be found, e.g.,`baypass2freqs_cov.py
 Script files for snp_calling can be found in the following GitHub repository: https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling
 
 #### snp_calling -- SNP calling, SNP data processing
-- baypass2freqs_cov.py -- Converts a file from multipopulation BayPass format (refcount1 altcount1 etc.) to frequencies of the alt allele and a coverage matrix
-- bams2SNPs.commands.sh -- Commands used to call SNPs and generate allele count files
-- calculate_coverage_distribution_sync.py -- Calculates the top X percentage of coverage across all pools from a sync file
-- filter_sync_by_snplist.py -- Filters a sync file (Popoolation2) by a list of SNPs to keep (e.g. a snpdet file produced by poolfstat)
-- get_SNP_position_in_genome.py -- Convert SNP positions called in one reference genome to approximate position in another genome based on blast results
-- vcf2genobaypass.R -- R commands to generate the read count file from the VarScan VCF using *poolfstat*
+- [baypass2freqs_cov.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/baypass2freqs_cov.py) -- Converts a file from multipopulation BayPass format (refcount1 altcount1 etc.) to frequencies of the alt allele and a coverage matrix
+- [bams2SNPs.commands.sh](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/bams2SNPs.commands.sh) -- Commands used to call SNPs and generate allele count files
+- [calculate_coverage_distribution_sync.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/calculate_coverage_distribution_sync.py) -- Calculates the top X percentage of coverage across all pools from a sync file
+- [filter_sync_by_snplist.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/filter_sync_by_snplist.py) -- Filters a sync file (Popoolation2) by a list of SNPs to keep (e.g. a snpdet file produced by poolfstat)
+- [get_SNP_position_in_genome.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/get_SNP_position_in_genome.py) -- Convert SNP positions called in one reference genome to approximate position in another genome based on blast results
+- [vcf2genobaypass.R](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/vcf2genobaypass.R) -- R commands to generate the read count file from the VarScan VCF using *poolfstat*
 
 #### demography_analysis --
 - [run.MantelTests.R](demography_analysis/run.MantelTests.R) -- generates matrices to run Mantel tests, runs Mantel tests to compare geographic distance and admixture statistic (f4) and to compare geographic distance and genetic distance (FST)
