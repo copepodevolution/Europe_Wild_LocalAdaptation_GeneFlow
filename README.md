@@ -19,7 +19,7 @@ Script files for snp_calling can be found in the following GitHub repository: ht
 - [get_SNP_position_in_genome.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/get_SNP_position_in_genome.py) -- Convert SNP positions called in one reference genome to approximate position in another genome based on blast results
 - [vcf2genobaypass.R](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/vcf2genobaypass.R) -- R commands to generate the read count file from the VarScan VCF using *poolfstat*
 
-#### demography_analysis --
+#### demography_analysis -- Mantel tests
 - [run.MantelTests.R](demography_analysis/run.MantelTests.R) -- generates matrices to run Mantel tests, runs Mantel tests to compare geographic distance and admixture statistic (f4) and to compare geographic distance and genetic distance (FST)
 
 #### selection_analysis --
