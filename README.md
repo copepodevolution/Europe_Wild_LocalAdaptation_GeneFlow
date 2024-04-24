@@ -27,10 +27,11 @@ Script files for TreeMix can be found in the following GitHub repository: https:
 - [Steps2&4_TreeMix.R](https://github.com/carolindahms/TreeMix/blob/main/Step2%264_TreeMix.R) -- step 2 tests migration edges with OptM, step 4 visualizes trees and generates migration stats and support
 - [Step3_TreeMix.sh](https://github.com/carolindahms/TreeMix/blob/main/Step3_TreeMix.sh) -- builds final consensus TreeMix tree(s) using optimum number of migration edges
 
-#### selection_analysis --
+#### selection_analysis -- compare results of 2 different BayPass analyses
 - [BayPassResults_ComparisonPlots.R](selection_analysis/BayPassResults_ComparisonPlots.R) -- generates a scatterplot that compares the results of two BayPass analyses
 
-#### SFS_analysis --
+#### SFS_analysis -- folded site frequency spectra (SFS)
+- [GenerateSFS.R]() -- generates folded SFS for population groupings and individual populations across BayPass analyses, SFS that evaluate eBP results use candidate SNPs based on BayPass results that use empirical and simulated environmental data
 
 
 ## Software required to run these scripts
