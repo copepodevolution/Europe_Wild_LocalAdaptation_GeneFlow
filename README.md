@@ -54,7 +54,6 @@ R version 4.1.2
 - [GenABEL v.1.8-0](https://github.com/GenABEL-Project)
 - [GenABEL.data v.1.0.0](https://github.com/GenABEL-Project)
 - [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
-- [ggpubr v.0.6.0](https://rpkgs.datanovia.com/ggpubr/)
 - [gplots v.3.1.3](https://github.com/talgalili/gplots)
 - [kableExtra v.1.3.4](https://github.com/haozhu233/kableExtra)
 - [knitr v.1.37](https://yihui.org/knitr/)
