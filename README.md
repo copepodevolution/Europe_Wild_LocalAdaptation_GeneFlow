@@ -40,6 +40,7 @@ Python version 3.8.2
 
 ## R packages
 R version 4.1.2
+- [RColorBrewer v.1.1-3](https://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf)
 - [dplyr v.1.0.8](https://dplyr.tidyverse.org/)
 - [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
 - [gplots v.3.1.3](https://github.com/talgalili/gplots)
