@@ -31,7 +31,7 @@ Script files for TreeMix can be found in the following GitHub repository: https:
 - [BayPassResults_ComparisonPlots.R](selection_analysis/BayPassResults_ComparisonPlots.R) -- generates a scatterplot that compares the results of two BayPass analyses
 
 #### SFS_analysis -- folded site frequency spectra (SFS)
-- [GenerateSFS.R]() -- generates folded SFS for population groupings and individual populations across BayPass analyses, SFS that evaluate eBP results use candidate SNPs based on BayPass results that use empirical and simulated environmental data
+- [GenerateSFS.R](SFS_analysis/GenerateSFS.R) -- generates folded SFS for population groupings and individual populations across BayPass analyses, SFS that evaluate eBP results use candidate SNPs based on BayPass results that use empirical and simulated environmental data
 
 
 ## Software required to run these scripts
