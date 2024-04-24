@@ -11,6 +11,8 @@ Command-line options for python scripts can be found, e.g.,`baypass2freqs_cov.py
 
 Script files for snp_calling can be found in the following GitHub repository: https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling
 
+Script files for TreeMix can be found in the following GitHub repository: https://github.com/carolindahms/TreeMix/tree/main
+
 #### snp_calling -- SNP calling, SNP data processing
 - [baypass2freqs_cov.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/baypass2freqs_cov.py) -- Converts a file from multipopulation BayPass format (refcount1 altcount1 etc.) to frequencies of the alt allele and a coverage matrix
 - [bams2SNPs.commands.sh](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/bams2SNPs.commands.sh) -- Commands used to call SNPs and generate allele count files
@@ -19,11 +21,14 @@ Script files for snp_calling can be found in the following GitHub repository: ht
 - [get_SNP_position_in_genome.py](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/get_SNP_position_in_genome.py) -- Convert SNP positions called in one reference genome to approximate position in another genome based on blast results
 - [vcf2genobaypass.R](https://github.com/TheDBStern/Baltic_Lab_Wild/tree/master/snp_calling/vcf2genobaypass.R) -- R commands to generate the read count file from the VarScan VCF using *poolfstat*
 
-#### demography_analysis -- Mantel tests
+#### demography_analysis -- Mantel tests, TreeMix analyses
 - [run.MantelTests.R](demography_analysis/run.MantelTests.R) -- generates matrices to run Mantel tests, runs Mantel tests to compare geographic distance and admixture statistic (f4) and to compare geographic distance and genetic distance (FST)
+- [Step1_TreeMix.sh](https://github.com/carolindahms/TreeMix/blob/main/Step1_TreeMix.sh) -- builds consensus TreeMix trees with multiple migration events
+- [Steps2&4_TreeMix.R](https://github.com/carolindahms/TreeMix/blob/main/Step2%264_TreeMix.R) -- step 2 tests migration edges with OptM, step 4 visualizes trees and generates migration stats and support
+- [Step3_TreeMix.sh](https://github.com/carolindahms/TreeMix/blob/main/Step3_TreeMix.sh) -- builds final consensus TreeMix tree(s) using optimum number of migration edges
 
 #### selection_analysis --
-
+- [BayPassResults_ComparisonPlots.R]() -- generates a scatterplot that compares the results of two BayPass analyses
 
 #### SFS_analysis --
 
@@ -40,12 +45,26 @@ Python version 3.8.2
 
 ## R packages
 R version 4.1.2
+- [beanplot v.1.2](https://cran.r-project.org/web/packages/beanplot/beanplot.pdf)
+- [BITE v.1.2.0008](https://github.com/marcomilanesi/BITE)
+- [car v.3.0-12](https://cran.r-project.org/web/packages/car/index.html)
+- [carData v.3.0-5](https://cran.r-project.org/web/packages/carData/carData.pdf)
+- [data.table v.1.14.2](https://github.com/Rdatatable/data.table)
 - [dplyr v.1.0.8](https://dplyr.tidyverse.org/)
+- [GenABEL v.1.8-0](https://github.com/GenABEL-Project)
+- [GenABEL.data v.1.0.0](https://github.com/GenABEL-Project)
 - [ggplot2 v.3.3.5](https://ggplot2.tidyverse.org)
+- [ggpubr v.0.6.0](https://rpkgs.datanovia.com/ggpubr/)
 - [gplots v.3.1.3](https://github.com/talgalili/gplots)
+- [kableExtra v.1.3.4](https://github.com/haozhu233/kableExtra)
+- [knitr v.1.37](https://yihui.org/knitr/)
 - [OptM v.0.1.6](https://cran.r-project.org/web/packages/OptM/OptM.pdf)
+- [plyr v.1.8.6](https://github.com/hadley/plyr)
 - [poolfstat v.1.1.1, v2.1.1](https://cran.r-project.org/web/packages/poolfstat/poolfstat.pdf)
+- [RCircos v.1.1.3](https://cran.r-project.org/web/packages/RCircos/RCircos.pdf)
 - [RColorBrewer v.1.1-3](https://cran.r-project.org/web/packages/RColorBrewer/RColorBrewer.pdf)
+- [reshape2 v.1.4.4](https://github.com/hadley/reshape)
+- [rmarkdown v.2.11](https://github.com/rstudio/rmarkdown)
 - [tidyverse v.1.3.1](https://www.tidyverse.org/)
 - [vegan v.2.6-2](http://cran.r-project.org/package=vegan)
 
