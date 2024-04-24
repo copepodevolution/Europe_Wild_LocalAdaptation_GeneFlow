@@ -28,7 +28,7 @@ Script files for TreeMix can be found in the following GitHub repository: https:
 - [Step3_TreeMix.sh](https://github.com/carolindahms/TreeMix/blob/main/Step3_TreeMix.sh) -- builds final consensus TreeMix tree(s) using optimum number of migration edges
 
 #### selection_analysis --
-- [BayPassResults_ComparisonPlots.R]() -- generates a scatterplot that compares the results of two BayPass analyses
+- [BayPassResults_ComparisonPlots.R](selection_analysis/BayPassResults_ComparisonPlots.R) -- generates a scatterplot that compares the results of two BayPass analyses
 
 #### SFS_analysis --
 
