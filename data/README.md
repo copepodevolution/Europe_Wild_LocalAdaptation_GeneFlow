@@ -23,7 +23,8 @@ The data columns are in the following order:
 
 ### wild.snps and wild.snpdet
 
-**wild.snps_freq** and **wild.snps_cov** contains SNP frequencies and coverages for every SNP in every wild population, generated using R::*poolfstat* and *baypass2freqs_cov.py*  
+**wild.snps_freq** and **wild.snps_cov** contains SNP frequencies and coverages for every SNP in every wild population, generated using R::*poolfstat* and *baypass2freqs_cov.py*.
+**wild.snps_freq** contains folded SNP frequencies -- the frequency shown for each SNP in each population is the frequency of the minor allele in that population.
 
 The data columns are in the following order:
 
