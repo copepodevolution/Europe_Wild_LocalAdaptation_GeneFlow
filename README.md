@@ -84,5 +84,5 @@ R version 4.1.2
 ## Data
 SNPs and allele counts derived from the Pool-Seq data are available in the [**data**](data) directory, along with environmental data. Please see the README file within for information.
 
-For questions or issues regarding the snp_calling scripts, please email David Stern - dstern7760@gmail.com
-For questions or issues regarding the custom scripts on this repository, please email Juanita Diaz - jdiaz22@wisc.edu
+For questions or issues regarding the snp_calling scripts, please email David Stern - dstern7760@gmail.com.
+For questions or issues regarding the custom scripts on this repository, please email Juanita Diaz - jdiaz22@wisc.edu.
